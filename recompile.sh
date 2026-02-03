@@ -17,7 +17,7 @@ info() {
 # Function to check if a command is available
 check_command() {
 	if ! command -v "$1" >/dev/null; then
-		echo "The command '$1' is not available. Please install it and try again."
+		echo "The command '$1' is not available. Please install it and try again!"
 		exit 1
 	fi
 }
